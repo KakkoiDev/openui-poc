@@ -1,20 +1,12 @@
-import { ChatOpenAI } from "@langchain/openai";
 import { generateSystemPrompt } from "@openuidev/lang-core";
 import { createAgent } from "langchain";
+import { ClaudeCodeChatModel } from "./claude-code-model";
 import librarySpec from "./generated/spec.json";
 
 const { promptOptions, ...library } = librarySpec;
 
-// Construct on request so the app can build and open before a key is added.
 export function createChatAgent() {
-  const model = new ChatOpenAI({
-    apiKey: process.env.DEEPSEEK_API_KEY,
-    model: process.env.DEEPSEEK_MODEL || "deepseek-flash",
-    streaming: true,
-    useResponsesApi: false,
-    configuration: { baseURL: "https://api.deepseek.com" },
-    modelKwargs: { thinking: { type: "disabled" } },
-  });
+  const model = new ClaudeCodeChatModel(process.env.CLAUDE_CODE_MODEL || "haiku");
   return createAgent({
     model,
     tools: [],

@@ -14,9 +14,6 @@ export async function POST(request: Request) {
         !message || !["human", "ai"].includes(message.type ?? "") || typeof message.content !== "string")) {
     return Response.json({ error: "Send a non-empty messages array with human or ai text messages." }, { status: 400 });
   }
-  if (!process.env.DEEPSEEK_API_KEY?.trim()) {
-    return Response.json({ error: "Add DEEPSEEK_API_KEY to .env.local, then restart the server." }, { status: 503 });
-  }
   try {
     const stream = await createChatAgent().stream(
       { messages: payload.messages },
@@ -29,6 +26,6 @@ export async function POST(request: Request) {
       },
     });
   } catch {
-    return Response.json({ error: "Could not start DeepSeek. Check your API key and model setting." }, { status: 502 });
+    return Response.json({ error: "Could not start Claude. Check that the Claude Code CLI is logged in." }, { status: 502 });
   }
 }
