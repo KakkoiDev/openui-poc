@@ -2,6 +2,14 @@
 
 A minimal local prototype that streams DeepSeek responses into interactive OpenUI components. Reuses the official [OpenUI self-hosted starter](https://github.com/thesysdev/openui/tree/main/templates/openui-self-hosted): its chat shell, theme switch, conversation controls, component library, generated schema, and LangGraph streaming adapters.
 
+## Demo
+
+A real DeepSeek response streaming into a nutrition table and interactive bar chart, using illustrative sample data.
+
+[![Watch the OpenUI chat demo](docs/media/openui-demo.gif)](https://github.com/KakkoiDev/openui-poc/blob/main/docs/media/openui-demo.mp4)
+
+[Watch the full MP4 video](https://github.com/KakkoiDev/openui-poc/blob/main/docs/media/openui-demo.mp4). The animated preview above plays directly in the README.
+
 ## Run
 
 Requires Node.js 20.9+ and npm.
@@ -37,7 +45,7 @@ Open http://localhost:3000. Restart the server after changing environment variab
 
 `src/app/page.tsx` reuses OpenUI's `AgentInterface`, default library, and LangGraph adapters. `src/agent.ts` generates instructions from the same component schema and connects LangChain's OpenAI-compatible client directly to DeepSeek. `src/app/api/chat/route.ts` validates messages, checks configuration, and passes the native SSE stream through to the browser.
 
-No database, login, external tools, or deployment. Conversations last for the current page session. Generated forms are conversational interactions; they do not submit to external services. Example data is illustrative. DeepSeek output quality and rendering need verification with your own key.
+No database, login, external tools, or deployment. Conversations last for the current page session. Generated forms are conversational interactions; they do not submit to external services. Example data is illustrative. Live generation has been verified with DeepSeek; individual responses can vary.
 
 ## Checks
 
