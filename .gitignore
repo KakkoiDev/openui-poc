@@ -44,3 +44,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# demo field-service JSON db (runtime copy of data/demo-seed.json)
+data/demo-db.json
+data/*.tmp

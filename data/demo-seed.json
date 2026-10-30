@@ -1,0 +1,989 @@
+{
+  "customers": [
+    {
+      "id": "C001",
+      "name": "山田工務店",
+      "prefecture": "埼玉県",
+      "city": "さいたま市",
+      "phone": "000-1557-7919"
+    },
+    {
+      "id": "C002",
+      "name": "さくら不動産管理",
+      "prefecture": "東京都",
+      "city": "練馬区",
+      "phone": "000-8001-1164"
+    },
+    {
+      "id": "C003",
+      "name": "青空ハウジング",
+      "prefecture": "千葉県",
+      "city": "船橋市",
+      "phone": "000-2294-8395"
+    },
+    {
+      "id": "C004",
+      "name": "みどり歯科クリニック",
+      "prefecture": "千葉県",
+      "city": "船橋市",
+      "phone": "000-9105-8462"
+    },
+    {
+      "id": "C005",
+      "name": "ひかり保育園",
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "phone": "000-0765-3868"
+    },
+    {
+      "id": "C006",
+      "name": "大和ビル管理",
+      "prefecture": "神奈川県",
+      "city": "川崎市",
+      "phone": "000-8077-3967"
+    },
+    {
+      "id": "C007",
+      "name": "こだま食堂",
+      "prefecture": "埼玉県",
+      "city": "さいたま市",
+      "phone": "000-9618-2325"
+    },
+    {
+      "id": "C008",
+      "name": "はなまる薬局",
+      "prefecture": "愛知県",
+      "city": "名古屋市",
+      "phone": "000-1941-8825"
+    },
+    {
+      "id": "C009",
+      "name": "つばさ物流",
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "phone": "000-9390-7396"
+    },
+    {
+      "id": "C010",
+      "name": "北斗マンション管理組合",
+      "prefecture": "東京都",
+      "city": "世田谷区",
+      "phone": "000-6984-0451"
+    },
+    {
+      "id": "C011",
+      "name": "佐藤 花子",
+      "prefecture": "東京都",
+      "city": "世田谷区",
+      "phone": "000-2793-6785"
+    },
+    {
+      "id": "C012",
+      "name": "鈴木 一郎",
+      "prefecture": "東京都",
+      "city": "練馬区",
+      "phone": "000-3326-2420"
+    },
+    {
+      "id": "C013",
+      "name": "高橋 美咲",
+      "prefecture": "神奈川県",
+      "city": "川崎市",
+      "phone": "000-7956-6732"
+    },
+    {
+      "id": "C014",
+      "name": "田中 健太",
+      "prefecture": "大阪府",
+      "city": "大阪市",
+      "phone": "000-3830-9999"
+    },
+    {
+      "id": "C015",
+      "name": "伊藤 由美",
+      "prefecture": "埼玉県",
+      "city": "さいたま市",
+      "phone": "000-9085-7768"
+    },
+    {
+      "id": "C016",
+      "name": "渡辺 大輔",
+      "prefecture": "愛知県",
+      "city": "名古屋市",
+      "phone": "000-3156-1190"
+    },
+    {
+      "id": "C017",
+      "name": "中村 さやか",
+      "prefecture": "神奈川県",
+      "city": "川崎市",
+      "phone": "000-5596-9429"
+    },
+    {
+      "id": "C018",
+      "name": "小林 翔",
+      "prefecture": "神奈川県",
+      "city": "川崎市",
+      "phone": "000-9530-5169"
+    },
+    {
+      "id": "C019",
+      "name": "加藤 恵",
+      "prefecture": "神奈川県",
+      "city": "横浜市",
+      "phone": "000-1172-4642"
+    },
+    {
+      "id": "C020",
+      "name": "吉田 拓海",
+      "prefecture": "神奈川県",
+      "city": "横浜市",
+      "phone": "000-3020-3322"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "J001",
+      "customerId": "C014",
+      "title": "給湯器交換",
+      "status": "completed",
+      "assignee": "森",
+      "scheduledAt": "2026-05-18",
+      "amountJpy": 338000
+    },
+    {
+      "id": "J002",
+      "customerId": "C016",
+      "title": "ハウスクリーニング",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-05-18",
+      "amountJpy": 85000
+    },
+    {
+      "id": "J003",
+      "customerId": "C020",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-05-20",
+      "amountJpy": 982000
+    },
+    {
+      "id": "J004",
+      "customerId": "C005",
+      "title": "水回りリフォーム",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-05-02",
+      "amountJpy": 517000
+    },
+    {
+      "id": "J005",
+      "customerId": "C014",
+      "title": "定期点検",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-05-06",
+      "amountJpy": 28000
+    },
+    {
+      "id": "J006",
+      "customerId": "C001",
+      "title": "給湯器交換",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-05-25",
+      "amountJpy": 166000
+    },
+    {
+      "id": "J007",
+      "customerId": "C017",
+      "title": "エアコンクリーニング",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-05-07",
+      "amountJpy": 17000
+    },
+    {
+      "id": "J008",
+      "customerId": "C010",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-05-18",
+      "amountJpy": 726000
+    },
+    {
+      "id": "J009",
+      "customerId": "C010",
+      "title": "水回りリフォーム",
+      "status": "completed",
+      "assignee": "池田",
+      "scheduledAt": "2026-05-04",
+      "amountJpy": 700000
+    },
+    {
+      "id": "J010",
+      "customerId": "C005",
+      "title": "屋根修理",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-05-10",
+      "amountJpy": 554000
+    },
+    {
+      "id": "J011",
+      "customerId": "C018",
+      "title": "定期点検",
+      "status": "completed",
+      "assignee": "石井",
+      "scheduledAt": "2026-06-10",
+      "amountJpy": 34000
+    },
+    {
+      "id": "J012",
+      "customerId": "C019",
+      "title": "給湯器交換",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-06-28",
+      "amountJpy": 293000
+    },
+    {
+      "id": "J013",
+      "customerId": "C015",
+      "title": "ハウスクリーニング",
+      "status": "completed",
+      "assignee": "石井",
+      "scheduledAt": "2026-06-05",
+      "amountJpy": 37000
+    },
+    {
+      "id": "J014",
+      "customerId": "C016",
+      "title": "エアコンクリーニング",
+      "status": "completed",
+      "assignee": "森",
+      "scheduledAt": "2026-06-08",
+      "amountJpy": 16000
+    },
+    {
+      "id": "J015",
+      "customerId": "C019",
+      "title": "ハウスクリーニング",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-06-17",
+      "amountJpy": 68000
+    },
+    {
+      "id": "J016",
+      "customerId": "C001",
+      "title": "給湯器交換",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-06-27",
+      "amountJpy": 204000
+    },
+    {
+      "id": "J017",
+      "customerId": "C020",
+      "title": "ハウスクリーニング",
+      "status": "completed",
+      "assignee": "石井",
+      "scheduledAt": "2026-06-28",
+      "amountJpy": 84000
+    },
+    {
+      "id": "J018",
+      "customerId": "C014",
+      "title": "屋根修理",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-06-09",
+      "amountJpy": 397000
+    },
+    {
+      "id": "J019",
+      "customerId": "C015",
+      "title": "外壁塗装",
+      "status": "completed",
+      "assignee": "森",
+      "scheduledAt": "2026-06-05",
+      "amountJpy": 1435000
+    },
+    {
+      "id": "J020",
+      "customerId": "C001",
+      "title": "水回りリフォーム",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-06-14",
+      "amountJpy": 455000
+    },
+    {
+      "id": "J021",
+      "customerId": "C019",
+      "title": "エアコン取付",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-07-01",
+      "amountJpy": 94000
+    },
+    {
+      "id": "J022",
+      "customerId": "C020",
+      "title": "ハウスクリーニング",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-07-27",
+      "amountJpy": 67000
+    },
+    {
+      "id": "J023",
+      "customerId": "C003",
+      "title": "エアコン取付",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-07-15",
+      "amountJpy": 106000
+    },
+    {
+      "id": "J024",
+      "customerId": "C002",
+      "title": "水回りリフォーム",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-07-13",
+      "amountJpy": 484000
+    },
+    {
+      "id": "J025",
+      "customerId": "C019",
+      "title": "屋根修理",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-07-09",
+      "amountJpy": 227000
+    },
+    {
+      "id": "J026",
+      "customerId": "C002",
+      "title": "エアコンクリーニング",
+      "status": "completed",
+      "assignee": "石井",
+      "scheduledAt": "2026-07-26",
+      "amountJpy": 16000
+    },
+    {
+      "id": "J027",
+      "customerId": "C016",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-07-11",
+      "amountJpy": 1349000
+    },
+    {
+      "id": "J028",
+      "customerId": "C003",
+      "title": "エアコン取付",
+      "status": "completed",
+      "assignee": "石井",
+      "scheduledAt": "2026-07-02",
+      "amountJpy": 117000
+    },
+    {
+      "id": "J029",
+      "customerId": "C010",
+      "title": "屋根修理",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-07-12",
+      "amountJpy": 584000
+    },
+    {
+      "id": "J030",
+      "customerId": "C008",
+      "title": "エアコン取付",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-07-25",
+      "amountJpy": 114000
+    },
+    {
+      "id": "J031",
+      "customerId": "C010",
+      "title": "給湯器交換",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-08-08",
+      "amountJpy": 194000
+    },
+    {
+      "id": "J032",
+      "customerId": "C006",
+      "title": "ハウスクリーニング",
+      "status": "completed",
+      "assignee": "橋本",
+      "scheduledAt": "2026-08-21",
+      "amountJpy": 71000
+    },
+    {
+      "id": "J033",
+      "customerId": "C013",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-08-24",
+      "amountJpy": 1043000
+    },
+    {
+      "id": "J034",
+      "customerId": "C001",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-08-15",
+      "amountJpy": 1142000
+    },
+    {
+      "id": "J035",
+      "customerId": "C017",
+      "title": "エアコンクリーニング",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-08-28",
+      "amountJpy": 22000
+    },
+    {
+      "id": "J036",
+      "customerId": "C014",
+      "title": "屋根修理",
+      "status": "completed",
+      "assignee": "森",
+      "scheduledAt": "2026-08-07",
+      "amountJpy": 382000
+    },
+    {
+      "id": "J037",
+      "customerId": "C010",
+      "title": "エアコン取付",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-08-08",
+      "amountJpy": 94000
+    },
+    {
+      "id": "J038",
+      "customerId": "C005",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "池田",
+      "scheduledAt": "2026-08-20",
+      "amountJpy": 693000
+    },
+    {
+      "id": "J039",
+      "customerId": "C009",
+      "title": "外壁塗装",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-08-19",
+      "amountJpy": 608000
+    },
+    {
+      "id": "J040",
+      "customerId": "C007",
+      "title": "エアコンクリーニング",
+      "status": "invoiced",
+      "assignee": "橋本",
+      "scheduledAt": "2026-08-08",
+      "amountJpy": 16000
+    },
+    {
+      "id": "J041",
+      "customerId": "C019",
+      "title": "屋根修理",
+      "status": "scheduled",
+      "assignee": "石井",
+      "scheduledAt": "2026-09-21",
+      "amountJpy": 482000
+    },
+    {
+      "id": "J042",
+      "customerId": "C004",
+      "title": "給湯器交換",
+      "status": "scheduled",
+      "assignee": "橋本",
+      "scheduledAt": "2026-09-02",
+      "amountJpy": 239000
+    },
+    {
+      "id": "J043",
+      "customerId": "C014",
+      "title": "エアコンクリーニング",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-09-05",
+      "amountJpy": 22000
+    },
+    {
+      "id": "J044",
+      "customerId": "C003",
+      "title": "エアコンクリーニング",
+      "status": "scheduled",
+      "assignee": "森",
+      "scheduledAt": "2026-09-24",
+      "amountJpy": 14000
+    },
+    {
+      "id": "J045",
+      "customerId": "C003",
+      "title": "屋根修理",
+      "status": "inquiry",
+      "assignee": "森",
+      "scheduledAt": "2026-09-21",
+      "amountJpy": 598000
+    },
+    {
+      "id": "J046",
+      "customerId": "C004",
+      "title": "定期点検",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-09-01",
+      "amountJpy": 18000
+    },
+    {
+      "id": "J047",
+      "customerId": "C014",
+      "title": "ハウスクリーニング",
+      "status": "scheduled",
+      "assignee": "石井",
+      "scheduledAt": "2026-09-13",
+      "amountJpy": 51000
+    },
+    {
+      "id": "J048",
+      "customerId": "C012",
+      "title": "エアコン取付",
+      "status": "invoiced",
+      "assignee": "森",
+      "scheduledAt": "2026-09-17",
+      "amountJpy": 68000
+    },
+    {
+      "id": "J049",
+      "customerId": "C001",
+      "title": "エアコン取付",
+      "status": "estimated",
+      "assignee": "石井",
+      "scheduledAt": "2026-09-07",
+      "amountJpy": 113000
+    },
+    {
+      "id": "J050",
+      "customerId": "C007",
+      "title": "水回りリフォーム",
+      "status": "completed",
+      "assignee": "橋本",
+      "scheduledAt": "2026-09-23",
+      "amountJpy": 527000
+    },
+    {
+      "id": "J051",
+      "customerId": "C008",
+      "title": "外壁塗装",
+      "status": "in_progress",
+      "assignee": "石井",
+      "scheduledAt": "2026-10-19",
+      "amountJpy": 808000
+    },
+    {
+      "id": "J052",
+      "customerId": "C002",
+      "title": "外壁塗装",
+      "status": "inquiry",
+      "assignee": "池田",
+      "scheduledAt": "2026-10-13",
+      "amountJpy": 1178000
+    },
+    {
+      "id": "J053",
+      "customerId": "C002",
+      "title": "給湯器交換",
+      "status": "estimated",
+      "assignee": "石井",
+      "scheduledAt": "2026-10-18",
+      "amountJpy": 255000
+    },
+    {
+      "id": "J054",
+      "customerId": "C003",
+      "title": "エアコン取付",
+      "status": "scheduled",
+      "assignee": "森",
+      "scheduledAt": "2026-10-10",
+      "amountJpy": 104000
+    },
+    {
+      "id": "J055",
+      "customerId": "C014",
+      "title": "定期点検",
+      "status": "invoiced",
+      "assignee": "石井",
+      "scheduledAt": "2026-10-07",
+      "amountJpy": 18000
+    },
+    {
+      "id": "J056",
+      "customerId": "C008",
+      "title": "水回りリフォーム",
+      "status": "inquiry",
+      "assignee": "石井",
+      "scheduledAt": "2026-10-27",
+      "amountJpy": 489000
+    },
+    {
+      "id": "J057",
+      "customerId": "C007",
+      "title": "エアコン取付",
+      "status": "inquiry",
+      "assignee": "森",
+      "scheduledAt": "2026-10-15",
+      "amountJpy": 111000
+    },
+    {
+      "id": "J058",
+      "customerId": "C004",
+      "title": "屋根修理",
+      "status": "scheduled",
+      "assignee": "橋本",
+      "scheduledAt": "2026-10-01",
+      "amountJpy": 298000
+    },
+    {
+      "id": "J059",
+      "customerId": "C008",
+      "title": "ハウスクリーニング",
+      "status": "estimated",
+      "assignee": "橋本",
+      "scheduledAt": "2026-10-08",
+      "amountJpy": 66000
+    },
+    {
+      "id": "J060",
+      "customerId": "C018",
+      "title": "水回りリフォーム",
+      "status": "scheduled",
+      "assignee": "池田",
+      "scheduledAt": "2026-10-08",
+      "amountJpy": 519000
+    }
+  ],
+  "invoices": [
+    {
+      "id": "I001",
+      "jobId": "J002",
+      "issuedAt": "2026-05-25",
+      "amountJpy": 85000,
+      "taxJpy": 8500,
+      "paid": true
+    },
+    {
+      "id": "I002",
+      "jobId": "J003",
+      "issuedAt": "2026-05-27",
+      "amountJpy": 982000,
+      "taxJpy": 98200,
+      "paid": true
+    },
+    {
+      "id": "I003",
+      "jobId": "J004",
+      "issuedAt": "2026-05-09",
+      "amountJpy": 517000,
+      "taxJpy": 51700,
+      "paid": true
+    },
+    {
+      "id": "I004",
+      "jobId": "J005",
+      "issuedAt": "2026-05-13",
+      "amountJpy": 28000,
+      "taxJpy": 2800,
+      "paid": true
+    },
+    {
+      "id": "I005",
+      "jobId": "J006",
+      "issuedAt": "2026-06-01",
+      "amountJpy": 166000,
+      "taxJpy": 16600,
+      "paid": true
+    },
+    {
+      "id": "I006",
+      "jobId": "J007",
+      "issuedAt": "2026-05-14",
+      "amountJpy": 17000,
+      "taxJpy": 1700,
+      "paid": true
+    },
+    {
+      "id": "I007",
+      "jobId": "J008",
+      "issuedAt": "2026-05-25",
+      "amountJpy": 726000,
+      "taxJpy": 72600,
+      "paid": true
+    },
+    {
+      "id": "I008",
+      "jobId": "J010",
+      "issuedAt": "2026-05-17",
+      "amountJpy": 554000,
+      "taxJpy": 55400,
+      "paid": true
+    },
+    {
+      "id": "I009",
+      "jobId": "J012",
+      "issuedAt": "2026-07-05",
+      "amountJpy": 293000,
+      "taxJpy": 29300,
+      "paid": true
+    },
+    {
+      "id": "I010",
+      "jobId": "J015",
+      "issuedAt": "2026-06-24",
+      "amountJpy": 68000,
+      "taxJpy": 6800,
+      "paid": true
+    },
+    {
+      "id": "I011",
+      "jobId": "J016",
+      "issuedAt": "2026-07-04",
+      "amountJpy": 204000,
+      "taxJpy": 20400,
+      "paid": true
+    },
+    {
+      "id": "I012",
+      "jobId": "J018",
+      "issuedAt": "2026-06-16",
+      "amountJpy": 397000,
+      "taxJpy": 39700,
+      "paid": true
+    },
+    {
+      "id": "I013",
+      "jobId": "J020",
+      "issuedAt": "2026-06-21",
+      "amountJpy": 455000,
+      "taxJpy": 45500,
+      "paid": true
+    },
+    {
+      "id": "I014",
+      "jobId": "J021",
+      "issuedAt": "2026-07-08",
+      "amountJpy": 94000,
+      "taxJpy": 9400,
+      "paid": true
+    },
+    {
+      "id": "I015",
+      "jobId": "J022",
+      "issuedAt": "2026-08-03",
+      "amountJpy": 67000,
+      "taxJpy": 6700,
+      "paid": true
+    },
+    {
+      "id": "I016",
+      "jobId": "J023",
+      "issuedAt": "2026-07-22",
+      "amountJpy": 106000,
+      "taxJpy": 10600,
+      "paid": true
+    },
+    {
+      "id": "I017",
+      "jobId": "J024",
+      "issuedAt": "2026-07-20",
+      "amountJpy": 484000,
+      "taxJpy": 48400,
+      "paid": true
+    },
+    {
+      "id": "I018",
+      "jobId": "J025",
+      "issuedAt": "2026-07-16",
+      "amountJpy": 227000,
+      "taxJpy": 22700,
+      "paid": true
+    },
+    {
+      "id": "I019",
+      "jobId": "J027",
+      "issuedAt": "2026-07-18",
+      "amountJpy": 1349000,
+      "taxJpy": 134900,
+      "paid": true
+    },
+    {
+      "id": "I020",
+      "jobId": "J029",
+      "issuedAt": "2026-07-19",
+      "amountJpy": 584000,
+      "taxJpy": 58400,
+      "paid": true
+    },
+    {
+      "id": "I021",
+      "jobId": "J030",
+      "issuedAt": "2026-08-01",
+      "amountJpy": 114000,
+      "taxJpy": 11400,
+      "paid": true
+    },
+    {
+      "id": "I022",
+      "jobId": "J031",
+      "issuedAt": "2026-08-15",
+      "amountJpy": 194000,
+      "taxJpy": 19400,
+      "paid": true
+    },
+    {
+      "id": "I023",
+      "jobId": "J033",
+      "issuedAt": "2026-08-31",
+      "amountJpy": 1043000,
+      "taxJpy": 104300,
+      "paid": true
+    },
+    {
+      "id": "I024",
+      "jobId": "J034",
+      "issuedAt": "2026-08-22",
+      "amountJpy": 1142000,
+      "taxJpy": 114200,
+      "paid": false
+    },
+    {
+      "id": "I025",
+      "jobId": "J035",
+      "issuedAt": "2026-09-04",
+      "amountJpy": 22000,
+      "taxJpy": 2200,
+      "paid": false
+    },
+    {
+      "id": "I026",
+      "jobId": "J037",
+      "issuedAt": "2026-08-15",
+      "amountJpy": 94000,
+      "taxJpy": 9400,
+      "paid": false
+    },
+    {
+      "id": "I027",
+      "jobId": "J038",
+      "issuedAt": "2026-08-27",
+      "amountJpy": 693000,
+      "taxJpy": 69300,
+      "paid": false
+    },
+    {
+      "id": "I028",
+      "jobId": "J039",
+      "issuedAt": "2026-08-26",
+      "amountJpy": 608000,
+      "taxJpy": 60800,
+      "paid": false
+    },
+    {
+      "id": "I029",
+      "jobId": "J040",
+      "issuedAt": "2026-08-15",
+      "amountJpy": 16000,
+      "taxJpy": 1600,
+      "paid": false
+    },
+    {
+      "id": "I030",
+      "jobId": "J043",
+      "issuedAt": "2026-09-12",
+      "amountJpy": 22000,
+      "taxJpy": 2200,
+      "paid": false
+    },
+    {
+      "id": "I031",
+      "jobId": "J046",
+      "issuedAt": "2026-09-08",
+      "amountJpy": 18000,
+      "taxJpy": 1800,
+      "paid": false
+    },
+    {
+      "id": "I032",
+      "jobId": "J048",
+      "issuedAt": "2026-09-24",
+      "amountJpy": 68000,
+      "taxJpy": 6800,
+      "paid": false
+    },
+    {
+      "id": "I033",
+      "jobId": "J055",
+      "issuedAt": "2026-10-14",
+      "amountJpy": 18000,
+      "taxJpy": 1800,
+      "paid": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T001",
+      "jobId": "J001",
+      "title": "見積書を送付",
+      "due": "2026-11-03",
+      "done": false
+    },
+    {
+      "id": "T002",
+      "jobId": "J013",
+      "title": "現地調査の日程調整",
+      "due": "2026-11-07",
+      "done": false
+    },
+    {
+      "id": "T003",
+      "jobId": "J019",
+      "title": "部材の発注",
+      "due": "2026-11-11",
+      "done": false
+    },
+    {
+      "id": "T004",
+      "jobId": "J032",
+      "title": "完了報告の連絡",
+      "due": "2026-11-15",
+      "done": false
+    },
+    {
+      "id": "T005",
+      "jobId": "J042",
+      "title": "支払い状況の確認",
+      "due": "2026-11-19",
+      "done": false
+    }
+  ]
+}

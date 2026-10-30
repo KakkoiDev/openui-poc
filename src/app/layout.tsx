@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OpenUI × Claude",
-  description: "A simple chat that generates interactive UI with Claude.",
+  title: "OpenUI × use-ai",
+  description: "A use-ai chat that generates interactive UI with OpenUI Lang.",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" data-openui-theme="light" suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );

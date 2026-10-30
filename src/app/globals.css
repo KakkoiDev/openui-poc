@@ -86,3 +86,24 @@ strong {
 [data-openui-devtools-root] {
   font-variation-settings: normal;
 }
+
+.chat-page {
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.genui-frame {
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid var(--openui-border-default, #ddd);
+  border-radius: 8px;
+}
+
+.genui-label {
+  margin-bottom: 8px;
+  font-size: 12px;
+  opacity: 0.6;
+}

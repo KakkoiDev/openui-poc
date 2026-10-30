@@ -13,35 +13,55 @@
   "scripts": {
     "generate": "openui generate src/lib/library.ts --spec --out src/generated/spec.json",
     "predev": "npm run generate",
-    "dev": "next dev",
+    "dev": "concurrently -k -n web,ai \"npm:dev:web\" \"npm:dev:ai\"",
+    "dev:web": "next dev",
+    "dev:ai": "tsx server/index.mts",
+    "dev:mock": "DEMO_MOCK_MODEL=1 npm run dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "demo:reset": "node -e \"require('fs').copyFileSync('data/demo-seed.json','data/demo-db.json')\""
   },
   "dependencies": {
-    "@langchain/core": "^1.2.5",
-    "@langchain/langgraph": "^1.4.9",
+    "@ai-sdk/deepseek": "2.0.0-beta.36",
+    "@meetsmore-oss/use-ai-client": "1.21.0",
+    "@meetsmore-oss/use-ai-server": "1.21.0",
     "@openuidev/lang-core": "1.0.2",
     "@openuidev/react-lang": "^1.0.2",
     "@openuidev/react-ui": "^0.18.1",
-    "ai": "^7.0.157",
-    "ai-sdk-provider-claude-code": "^4.4.1",
-    "langchain": "^1.5.5",
+    "ai": "6.0.0-beta.116",
     "next": "^16.3.1",
+    "partial-json": "^0.1.7",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@ai-sdk/provider": "3.0.0-beta.17",
     "@openuidev/cli": "0.6.1",
+    "@testing-library/react": "^16.3.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5"
+    "concurrently": "^9.2.5",
+    "jsdom": "^30.1.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^4.1.12"
   },
   "allowScripts": {
     "@openuidev/lang-core": true,
     "sharp": true,
     "unrs-resolver": true
+  },
+  "overrides": {
+    "@meetsmore-oss/use-ai-client": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    },
+    "@openuidev/react-headless": {
+      "ai": "6.0.0-beta.116"
+    }
   }
 }
